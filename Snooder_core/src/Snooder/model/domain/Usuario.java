@@ -55,6 +55,4 @@ public class Usuario {
     public void setCod_senha(String cod_senha) {
         this.cod_senha = cod_senha;
     }
-    
-    
 }

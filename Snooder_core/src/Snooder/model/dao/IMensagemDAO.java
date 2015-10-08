@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package util.db.exception;
+package Snooder.model.dao;
 
 /**
  *
  * @author pernambucanas
  */
-public class NewClass {
+public interface IMensagemDAO {
     
 }
