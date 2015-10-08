@@ -9,6 +9,6 @@ package Snooder.model.service;
  *
  * @author pernambucanas
  */
-public class NewClass {
+public interface IManterObjeto {
     
 }
