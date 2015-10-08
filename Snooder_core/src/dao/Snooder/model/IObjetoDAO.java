@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Snooder.model;
+package dao.Snooder.model;
 
 /**
  *
  * @author pernambucanas
  */
-public class NewClass {
+public interface IObjetoDAO {
     
 }

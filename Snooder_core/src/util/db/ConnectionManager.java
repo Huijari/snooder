@@ -20,7 +20,6 @@ public class ConnectionManager {
     }
 
     public Connection getConnection() throws ClassNotFoundException, SQLException {
-
         return ConnectionManager.cf.getConnection();
     }
 }
