@@ -25,7 +25,7 @@ public class UsuarioDAO implements IUsuarioDAO{
         try {
             Connection connection = ConnectionManager.getInstance().getConnection();
 
-            String sql = "INSERT INTO usuario (nom_usuario, cod_senha, des_email, num_telefone) VALUES(?,md5(?),?,?) RETURNING id";
+            String sql = "INSERT INTO usuario (nome, senha, email, telefone) VALUES(?,md5(?),?,?) RETURNING id";
 
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1, usuario.getNome());
@@ -37,7 +37,7 @@ public class UsuarioDAO implements IUsuarioDAO{
 
             Long id = null;
             if (result.next()) {
-                id = new Long(result.getLong("cod_usuario"));
+                id = new Long(result.getLong("id"));
                 usuario.setId(id);
             }
 

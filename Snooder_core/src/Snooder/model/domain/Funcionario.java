@@ -11,7 +11,7 @@ package Snooder.model.domain;
  */
 public class Funcionario {
     private Long id;
-    private Cargo_Funcionario id_cargo;
+    private Cargo_Funcionario cargo;
     
     public Long getId() {
         return id;
@@ -22,6 +22,11 @@ public class Funcionario {
     }
     
     public void setCargo (Cargo_Funcionario cargo){
-       
+        this.cargo = cargo;
+        
     }
+    public Cargo_Funcionario getCargo(){
+        return this.cargo;
+    } 
+    
 }

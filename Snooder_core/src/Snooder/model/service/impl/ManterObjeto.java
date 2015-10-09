@@ -19,7 +19,7 @@ public class ManterObjeto implements IManterObjeto{
 
     @Override
     public Long cadastrar(Objeto objeto) throws PersistenciaException, NegocioException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     @Override

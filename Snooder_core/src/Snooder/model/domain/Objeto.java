@@ -12,12 +12,68 @@ import java.sql.Date;
  * @author pernambucanas
  */
 public class Objeto {
-    //pfk cod_usuario
+    
+    //cod cat obj, cod_local, cod_usuarioentregue
     private Long id;
+    private String nome;
     private Date data_entrada;
+    private Date data_saida;
     private String descricao;
     private String status;
+    
+    private Usuario usuario;
+    private Usuario usuarioentregue;
+    private Categoria_Objeto catobj;
+    private Localidade localidade;
 
+    public Localidade getLocalidade() {
+        return localidade;
+    }
+
+    public void setLocalidade(Localidade localidade) {
+        this.localidade = localidade;
+    }
+    
+    public Date getData_saida() {
+        return data_saida;
+    }
+
+    public void setData_saida(Date data_saida) {
+        this.data_saida = data_saida;
+    }
+    
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Usuario getUsuarioentregue() {
+        return usuarioentregue;
+    }
+
+    public void setUsuarioentregue(Usuario usuarioentregue) {
+        this.usuarioentregue = usuarioentregue;
+    }
+
+    public Categoria_Objeto getCatobj() {
+        return catobj;
+    }
+
+    public void setCatobj(Categoria_Objeto catobj) {
+        this.catobj = catobj;
+    }
+    
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
+    }
+    
     public Long getId() {
         return id;
     }

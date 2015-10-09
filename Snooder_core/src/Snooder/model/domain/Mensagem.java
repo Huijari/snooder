@@ -16,8 +16,26 @@ public class Mensagem {
     private Long id;
     private Timestamp data;
     private String conteudo;
+    private Usuario usuario;
+    private Assunto assunto;
     //*cod_usuario;
     //*cod_assunto
+
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
+    }
+
+    public Assunto getAssunto() {
+        return assunto;
+    }
+
+    public void setAssunto(Assunto assunto) {
+        this.assunto = assunto;
+    }
 
     public Long getId() {
         return id;
