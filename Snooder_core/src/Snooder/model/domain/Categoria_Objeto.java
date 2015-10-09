@@ -10,23 +10,23 @@ package Snooder.model.domain;
  * @author pernambucanas
  */
 public class Categoria_Objeto {
-    private Long cod_cat_objeto;
-    private String des_cat_objeto;
+    private Long id;
+    private String categoria;
 
-    public Long getCod_cat_objeto() {
-        return cod_cat_objeto;
+    public Long getId() {
+        return id;
     }
 
-    public void setCod_cat_objeto(Long cod_cat_objeto) {
-        this.cod_cat_objeto = cod_cat_objeto;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public String getDes_cat_objeto() {
-        return des_cat_objeto;
+    public String getCategoria() {
+        return categoria;
     }
 
-    public void setDes_cat_objeto(String des_cat_objeto) {
-        this.des_cat_objeto = des_cat_objeto;
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
     }
     
     

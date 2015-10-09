@@ -10,49 +10,49 @@ package Snooder.model.domain;
  * @author pernambucanas
  */
 public class Usuario {
-    private Long cod_usuario;
-    private String nom_usuario;
-    private int num_telefone;
-    private String des_email;
-    private String cod_senha;
+    private Long id;
+    private String nome;
+    private int telefone;
+    private String email;
+    private String senha;
 
-    public Long getCod_usuario() {
-        return cod_usuario;
+    public Long getId() {
+        return id;
     }
 
-    public void setCod_usuario(Long cod_usuario) {
-        this.cod_usuario = cod_usuario;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public String getNom_usuario() {
-        return nom_usuario;
+    public String getNome() {
+        return nome;
     }
 
-    public void setNom_usuario(String nom_usuario) {
-        this.nom_usuario = nom_usuario;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public int getNum_telefone() {
-        return num_telefone;
+    public int getTelefone() {
+        return telefone;
     }
 
-    public void setNum_telefone(int num_telefone) {
-        this.num_telefone = num_telefone;
+    public void setTelefone(int telefone) {
+        this.telefone = telefone;
     }
 
-    public String getDes_email() {
-        return des_email;
+    public String getEmail() {
+        return email;
     }
 
-    public void setDes_email(String des_email) {
-        this.des_email = des_email;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String getCod_senha() {
-        return cod_senha;
+    public String getSenha() {
+        return senha;
     }
 
-    public void setCod_senha(String cod_senha) {
-        this.cod_senha = cod_senha;
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 }

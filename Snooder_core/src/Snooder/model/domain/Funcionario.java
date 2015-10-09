@@ -10,15 +10,15 @@ package Snooder.model.domain;
  * @author pernambucanas
  */
 public class Funcionario {
-    private Long cod_usuario;
-    private Cargo_Funcionario cod_cargo;
+    private Long id;
+    private Cargo_Funcionario id_cargo;
     
-    public Long getCod_usuario() {
-        return cod_usuario;
+    public Long getId() {
+        return id;
     }
 
-    public void setCod_usuario(Long cod_usuario) {
-        this.cod_usuario = cod_usuario;
+    public void setId(Long id) {
+        this.id = id;
     }
     
     public void setCargo (Cargo_Funcionario cargo){

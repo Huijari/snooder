@@ -10,23 +10,23 @@ package Snooder.model.domain;
  * @author pernambucanas
  */
 public class Assunto {
-    private Long cod_assunto;
-    private String nom_assunto;
+    private Long id;
+    private String assunto;
 
-    public Long getCod_assunto() {
-        return cod_assunto;
+    public Long getId() {
+        return id;
     }
 
-    public void setCod_assunto(Long cod_assunto) {
-        this.cod_assunto = cod_assunto;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public String getNom_assunto() {
-        return nom_assunto;
+    public String getAssunto() {
+        return assunto;
     }
 
-    public void setNom_assunto(String nom_assunto) {
-        this.nom_assunto = nom_assunto;
+    public void setAssunto(String assunto) {
+        this.assunto = assunto;
     }
     
     

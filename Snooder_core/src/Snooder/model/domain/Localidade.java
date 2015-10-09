@@ -10,23 +10,23 @@ package Snooder.model.domain;
  * @author pernambucanas
  */
 public class Localidade {
-    private Long cod_localidade;
-    private String des_localidade;
+    private Long id;
+    private String localidade;
 
-    public Long getCod_localidade() {
-        return cod_localidade;
+    public Long getId() {
+        return id;
     }
 
-    public void setCod_localidade(Long cod_localidade) {
-        this.cod_localidade = cod_localidade;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public String getDes_localidade() {
-        return des_localidade;
+    public String getLocalidade() {
+        return localidade;
     }
 
-    public void setDes_localidade(String des_localidade) {
-        this.des_localidade = des_localidade;
+    public void setLocalidade(String localidade) {
+        this.localidade = localidade;
     }
     
     

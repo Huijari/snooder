@@ -10,23 +10,23 @@ package Snooder.model.domain;
  * @author pernambucanas
  */
 public class Cargo_Funcionario {
-    private Long cod_cargo;
-    private String des_cargo;
+    private Long id;
+    private String cargo;
 
-    public Long getCod_cargo() {
-        return cod_cargo;
+    public Long getId() {
+        return id;
     }
 
-    public void setCod_cargo(Long cod_cargo) {
-        this.cod_cargo = cod_cargo;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public String getDes_cargo() {
-        return des_cargo;
+    public String getCargo() {
+        return cargo;
     }
 
-    public void setDes_cargo(String des_cargo) {
-        this.des_cargo = des_cargo;
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
     }
     
     

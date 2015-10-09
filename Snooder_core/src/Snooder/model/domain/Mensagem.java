@@ -13,34 +13,34 @@ import java.sql.Timestamp;
  * @author pernambucanas
  */
 public class Mensagem {
-    private Long cod_mensagem;
-    private Timestamp dat_mensagem;
-    private String des_conteudo;
+    private Long id;
+    private Timestamp data;
+    private String conteudo;
     //*cod_usuario;
     //*cod_assunto
 
-    public Long getCod_mensagem() {
-        return cod_mensagem;
+    public Long getId() {
+        return id;
     }
 
-    public void setCod_mensagem(Long cod_mensagem) {
-        this.cod_mensagem = cod_mensagem;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public Timestamp getDat_mensagem() {
-        return dat_mensagem;
+    public Timestamp getData() {
+        return data;
     }
 
-    public void setDat_mensagem(Timestamp dat_mensagem) {
-        this.dat_mensagem = dat_mensagem;
+    public void setData(Timestamp data) {
+        this.data = data;
     }
 
-    public String getDes_conteudo() {
-        return des_conteudo;
+    public String getConteudo() {
+        return conteudo;
     }
 
-    public void setDes_conteudo(String des_conteudo) {
-        this.des_conteudo = des_conteudo;
+    public void setConteudo(String conteudo) {
+        this.conteudo = conteudo;
     }
     
     
