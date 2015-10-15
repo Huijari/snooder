@@ -9,8 +9,10 @@ package util.db.exception;
  *
  * @author pernambucanas
  */
-public class PersistenciaException extends Exception{
-    public PersistenciaException(String msg, Exception exception) {
+public class PersistenciaException extends Exception {
+	private static final long	serialVersionUID	= -1213452568973563011L;
+
+	public PersistenciaException(String msg, Exception exception) {
         super(msg, exception);
     }
 

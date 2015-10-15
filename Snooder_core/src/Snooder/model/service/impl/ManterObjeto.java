@@ -19,6 +19,7 @@ public class ManterObjeto implements IManterObjeto{
 
     @Override
     public Long cadastrar(Objeto objeto) throws PersistenciaException, NegocioException {
+		return null;
         
     }
 

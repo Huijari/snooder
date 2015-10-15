@@ -12,11 +12,13 @@ import java.util.List;
  *
  * @author pernambucanas
  */
-public class NegocioException extends Exception{
-    private List<String> msgs;
+public class NegocioException extends Exception {
+	private static final long	serialVersionUID	= 6589096117127367891L;
+	
+	private List<String> msgs;
     
     public NegocioException() {
-        this.msgs = new ArrayList();
+        this.msgs = new ArrayList<String>();
     }
     
     public NegocioException(String msg, Exception exception) {
